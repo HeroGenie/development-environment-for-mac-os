@@ -1,45 +1,33 @@
 brew "mas"
 brew "git-flow"
-brew "mysql@5.7"
 brew "python3"
+brew "mysql-client"
 brew "nvm"
-# brew "yarn"
-brew "watchman"
-brew "php"
-# zsh is default in MacOS Catalina
-# brew "zsh"
 brew "tree"
 brew "openssl"
-brew "rbenv"
-brew "ruby-build"
-brew "postgresql"
-brew "redis"
-brew "forego"
-brew "cmake"
+brew "graphviz"
 
+mas "Bandizip: Archiver", id: 1265704574
+mas "Scapple", id: 568020055
 mas "LINE", id: 539883307
 mas "KakaoTalk", id: 869223134
 mas "Slack", id: 803453959
+mas "Telegram", id: 747648890
+mas "Magnet", id: 441258766
+mas "Melon", id: 1236050766
+mas "Evernote", id: 406056744
+mas "Evernote Web Clipper", id: 1481669779
+mas "Microsoft Word", id: 462054704
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft PowerPoint", id: 462062816
 
-cask "ngrok"
 tap "adoptopenjdk/openjdk"
-cask "adoptopenjdk8"
-cask "android-studio"
-cask "sequel-pro"
-cask "db-browser-for-sqlite"
-cask "mysqlworkbench"
-cask "sketch"
-cask "postman"
+cask "adoptopenjdk13"
 cask "sourcetree"
 cask "google-chrome"
-cask "firefox"
-cask "filefox"
-cask "iterm2"
-cask "beyond-compare"
-cask "karabiner-elements"
-cask "bitbar"
-tap "heroku/brew"
-brew "heroku/brew/heroku"
-cask "psequel"
-cask "figma"
-cask "github"
+cask "zeplin"
+cask "jetbrains-toolbox"
+cask "sublime-text"
+
+cask "parallels"
+cask "adobe-creative-cloud"
