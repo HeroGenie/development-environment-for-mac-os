@@ -27,7 +27,7 @@ cask "sourcetree"
 cask "google-chrome"
 cask "zeplin"
 cask "jetbrains-toolbox"
-cask "sublime-text"
+# cask "sublime-text"
 
 cask "parallels"
 cask "adobe-creative-cloud"

@@ -16,19 +16,19 @@ open /Applications/kakaotalk.app
 
 
 # install font
-cp -a ./fonts/. ~/Library/Fonts
+# cp -a ./fonts/. ~/Library/Fonts
 
 # Node
-chmod 755 ./node/install.sh
-./node/install.sh
+# chmod 755 ./node/install.sh
+# ./node/install.sh
 
 # configure VSCode
 chmod 755 ./vscode/install.sh
 ./vscode/install.sh
 
 # copy iterm2 configuration
-chmod 755 ./iterm2/install.sh
-./iterm2/install.sh
+#chmod 755 ./iterm2/install.sh
+#./iterm2/install.sh
 
 # install python3
 chmod 755 ./python/install.sh
@@ -43,6 +43,6 @@ chmod 755 ./screenshot/install.sh
 ./screenshot/install.sh
 
 # configure zsh
-chmod 755 ./zsh/install.sh
-./zsh/install.sh
+#chmod 755 ./zsh/install.sh
+#./zsh/install.sh
 

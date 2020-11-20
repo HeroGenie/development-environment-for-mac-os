@@ -6,13 +6,13 @@ sudo xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
 
 # install vscode extensions
 code --install-extension jebbs.plantuml
-# code --install-extension AlanWalk.markdown-toc
+code --install-extension AlanWalk.markdown-toc
 # code --install-extension christian-kohler.npm-intellisense
 # code --install-extension christian-kohler.path-intellisense
 # code --install-extension CoenraadS.bracket-pair-colorizer
-# code --install-extension DavidAnson.vscode-markdownlint
+code --install-extension DavidAnson.vscode-markdownlint
 # code --install-extension dzannotti.vscode-babel-coloring
-# code --install-extension esbenp.prettier-vscode
+code --install-extension esbenp.prettier-vscode
 # code --install-extension felixfbecker.php-intellisense
 # code --install-extension fterrag.vscode-php-cs-fixer
 # code --install-extension gencer.html-slim-scss-css-class-completion
@@ -40,4 +40,4 @@ code --install-extension jebbs.plantuml
 # code --install-extension misogi.ruby-rubocop
 
 # copy vscode settings
-cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+# cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
